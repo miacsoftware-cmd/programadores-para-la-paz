@@ -1,0 +1,18 @@
+La ruta POST /registro recibe datos enviados en formato JSON mediante req.body.
+
+Al enviar el siguiente JSON:
+
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+El servidor responde:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Esto confirma que la información fue recibida y procesada correctamente.
