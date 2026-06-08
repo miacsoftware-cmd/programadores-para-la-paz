@@ -1,0 +1,13 @@
+La ruta POST /reportes permite registrar nuevos reportes enviados por los usuarios. Cada reporte recibe un identificador, un tipo y una descripción.
+
+Cuando se consulta la ruta GET /reportes, el servidor devuelve todos los reportes almacenados en el array reportes. Después de registrar reportes, estos aparecen en formato JSON dentro de una lista.
+
+Ejemplo de respuesta:
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
